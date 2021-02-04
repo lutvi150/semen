@@ -98,7 +98,8 @@ class Pelanggan extends CI_Controller
             'nama'=>$this->input->post('username'),
             'no_hp'=>$this->input->post('no_hp'),
             'alamat'=>$this->input->post('alamat'),
-            'foto'=>$this->upload('images'),
+			'foto'=>$this->upload('images'),
+			
         ];
         $status=
         ['status_data'=>'Sudah'];

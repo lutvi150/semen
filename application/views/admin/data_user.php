@@ -61,6 +61,7 @@
 									<th style="width: 20px;" >Tanggal Registrasi</th>
 									<th style="width:20px">Nomor HP</th>
 									<th style="width: 20px">Foto</th>
+									<th style="width: 100px;">Action</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -76,6 +77,11 @@
 									<td><?=$field2['tgl_registrasi']?></td>
 									<td><?=$field2['no_hp']?></td>
 									<td><?php base_url($field2['foto'])?></td>
+									<td>
+									<a href="#" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
+									<a href="#" class="btn btn-warning btn-sm"><i class="fa fa-times"></i>Belum Verifikasi</a>
+									<a href="#" class="btn btn-success btn-sm"><i class="fa fa-check"></i> Terverifikasi</a>
+									</td>
 								</tr>
 								<?php endforeach;?>
 							</tbody>
