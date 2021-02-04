@@ -239,9 +239,21 @@ class Admin extends CI_Controller
     public function data_user()
     {
         $data['data_user'] = $this->model->get_data_user()->result_array();
-        $this->menu('admin/data_user', $data);
+		$this->menu('admin/data_user', $data);
+		// echo json_encode($data);
         //print_r($data);
-    }
+	}
+	public function hapus_data_user(Type $var = null)
+	{
+		$id=$this->input->post('id');
+		
+		$data_user=$this->model->find_data('tb_data_diri_user','id_user',$id)->row_array();
+		$this->model->delete_data('tb_data_diri_user','username',$data_user['username']);
+		$this->model->delete_data('tb_user','username',$data_user['username']);
+		$this->session->set_flashdata('success', ' Data User Berhasil di hapus');
+		redirect("admin/data_user");
+		// echo json_encode($data_user);
+	}
     // view uniq request
     public function uniq_request()
     {

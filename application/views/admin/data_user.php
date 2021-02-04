@@ -78,8 +78,8 @@
 									<td><?=$field2['no_hp']?></td>
 									<td><?php base_url($field2['foto'])?></td>
 									<td>
-									<a href="#" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
-									<a href="#" class="btn btn-warning btn-sm"><i class="fa fa-times"></i>Belum Verifikasi</a>
+									<a href="#" onclick="delete_user(<?=$field2['id_user']?>)" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
+									<!-- <a href="#" class="btn btn-warning btn-sm"><i class="fa fa-times"></i>Belum Verifikasi</a> -->
 									<a href="#" class="btn btn-success btn-sm"><i class="fa fa-check"></i> Terverifikasi</a>
 									</td>
 								</tr>
@@ -162,4 +162,31 @@
 		</div>
 	</div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="modalDelete" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<form action="<?=base_url()?>admin/hapus_data_user" method="post">
+				<h5 class="modal-title">Konfirmasi</h5>
+					
+			</div>
+			<div class="modal-body">
+				<input type="text" class="id_user" hidden name="id">
+				Yakin akan hapus data user ?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
+				<button type="submit" class="btn btn-primary">Ya</button>
+			</div>
+			</form>
+		</div>
+	</div>
+</div>
+<script >
+	function delete_user(id) { 
+		$(".id_user").val(id);
+		$("#modalDelete").modal("show");
+	 }
+</script>
 

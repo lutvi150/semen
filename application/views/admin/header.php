@@ -35,7 +35,8 @@
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="<?php echo base_url();?>asset/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
   <link rel="stylesheet" href="<?php echo base_url();?>asset/dist/css/skins/_all-skins.min.css">
-  <link rel="stylesheet" href="<?=base_url();?>asset/costume/costume-admin.css"> 
+	<link rel="stylesheet" href="<?=base_url();?>asset/costume/costume-admin.css"> 
+	<script src="<?=base_url();?>asset/jquery/dist/jquery.js"></script>
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
