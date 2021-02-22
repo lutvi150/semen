@@ -104,9 +104,8 @@
 						<br>
 						<br>
 						<br>
-							 <h1>PT Semen Padang,</h1>
-							 
-							 <p>PT Semen Padang (Persero) was established on March 18, 1910 firstly named NV Nederlandsch Indische Portland Cement Maatschappij (NV NIPCM). The Company emerged to be the first cement plant in Indonesia. On July 05, 1958, the Company was  nationalized by the Government of the  Republic of Indonesia. During this period, the Company started to develop itself by increasing the capacity of Indarung I Plant to 330.000 tons/year. Next, the company developed the capacity of its production by erecting Indarung II, III and IV Plants which, unlike that of Indarung I, apply dry process.  In 1995, the Government shifted its ownership in PT Semen Padang  to PT Semen Gresik (Persero) Tbk and in the same year approved the development of Indarung V. Presently, PT Semen Indonesia (Persero) Tbk. owns 99.99% of the Company’s shares. The rest 0.01% is owned by Koperasi Keluarga Besar Semen Padang. The majority share of PT Semen Indonesia  (Persero) Tbk. in the Company (51.01%) is owned by the Government of the Republic of Indonesia, while the rest 48.09% owned by public</p>
+						<h1> 	</h1>
+								<p>PToko Besi Hidayah Padang Panjang merupakan Distributor besi terbesar di Sumbar. Toko besi hidayah berdiri sejak tahun 2004 . Toko besi hidayah beralamat profesor dr hamka no 6 kelurahan bukik surungan kecamatan tanjung alam siap bersaing dengan usaha usaha sejenis lain nya di area kota padang panjang. Selain menjadi distributor besi terbesar. Toko Besi Hidayah Padang Panjang juga mendistribusikan semen ke Toko Bangunan kecil dalam jumlah yang cukup banyak juga.</p>. owns 99.99% of the Company’s shares. The rest 0.01% is owned by Koperasi Keluarga Besar Semen Padang. The majority share of PT Semen Indonesia  (Persero) Tbk. in the Company (51.01%) is owned by the Government of the Republic of Indonesia, while the rest 48.09% owned by public</p>
 
  						</div>
  					</div>

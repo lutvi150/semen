@@ -8,7 +8,7 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   
 	
-	<link rel="shortcut icon" href="<?=base_url();?>asset/img/logo_semen_padang.png">
+	<link rel="shortcut icon" href="<?=base_url();?>asset/img/logo.png">
 	<!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="<?php echo base_url();?>asset/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
@@ -48,7 +48,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><img  class="gambar1"src="<?php echo base_url();?>gambar/logoapp.jpg" alt=""></span>
       <!-- logo for regular state and mobile devices -->
-      <b>Semen Padang</b></span>
+      <b><?=$this->config->item("aplication_name")?></b></span>
   
     </a>
     <!-- Header Navbar: style can be found in header.less -->

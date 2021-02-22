@@ -25,7 +25,7 @@ $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME'
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['aplication_name']="Semen Padang";
+$config['aplication_name']="Toko Besi Hidayah Padang Panjang";
 $config['distributor']="PT HIDAYAH TRIJAYA SUKSES";
 $config['base_url'] = $root;
 

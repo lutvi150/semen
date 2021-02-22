@@ -326,17 +326,17 @@ class Admin extends CI_Controller
         $pdf->AddPage();
         //seting jenis font yang di gunakan
         $pdf->SetFont('Arial', 'B', 16);
-        $pdf->Cell(20, 40, $pdf->image(base_url() . 'asset/img/logo_semen_padang_blur.jpg', 115, 40, 120), 0, 0, 'C');
+        $pdf->Cell(20, 40, $pdf->image(base_url() . 'asset/img/logo_blur.jpg', 115, 40, 120), 0, 0, 'C');
         //mencetak setting
-        $pdf->Cell(20, 7, $pdf->image(base_url() . 'asset/img/logo_semen_padang.jpg', $pdf->GetX(), $pdf->GetY(), 20), 0, 0, 'C');
+        $pdf->Cell(20, 7, $pdf->image(base_url() . 'asset/img/logo.jpg', $pdf->GetX(), $pdf->GetY(), 20), 0, 0, 'C');
 		$pdf->Cell(240, 6, $this->config->item("distributor"), 0, 1, 'C');
         $pdf->SetFont('Arial', 'B', 15);
         //mencetak setting
         $pdf->Cell(320, 6, 'DATA BARANG YANG TERDAFTAR PADA SISTEM', 0, 1, 'C');
         $pdf->SetFont('Arial', '', 12);
         $pdf->Cell(320, 5, 'Bukit Tinggi, Provinsi Sumatera Sumatra Barat', 0, 1, 'C');
-        $pdf->Cell(320, 5, 'Telp. 0752-82077, Fax.0752-82803; e-mail; cs@semenpadang.com', 0, 1, 'C');
-        $pdf->Cell(320, 5, 'webesite: www.semenpadang.co.id', 0, 1, 'C');
+        $pdf->Cell(320, 5, 'Telp. 0752-82077, Fax.0752-82803; e-mail; cs@TokoBesiHidayahPadangPanjang.com', 0, 1, 'C');
+        $pdf->Cell(320, 5, 'webesite: www.TokoBesiHidayahPadangPanjang.co.id', 0, 1, 'C');
         $pdf->Cell(340, 1, '', ':', 0, 1, 'C');
         $pdf->Cell(300, 5, '', 0, 1, 'C');
         //Membri spasi kEBawah
@@ -414,17 +414,17 @@ class Admin extends CI_Controller
         $pdf->AddPage();
         //seting jenis font yang di gunakan
         $pdf->SetFont('Arial', 'B', 16);
-        $pdf->Cell(20, 40, $pdf->image(base_url() . 'asset/img/logo_semen_padang_blur.jpg', 115, 40, 120), 0, 0, 'C');
+        $pdf->Cell(20, 40, $pdf->image(base_url() . 'asset/img/logo__blur.jpg', 115, 40, 120), 0, 0, 'C');
         //mencetak setting
-        $pdf->Cell(20, 7, $pdf->image(base_url() . 'asset/img/logo_semen_padang.jpg', $pdf->GetX(), $pdf->GetY(), 20), 0, 0, 'C');
+        $pdf->Cell(20, 7, $pdf->image(base_url() . 'asset/img/logo_.jpg', $pdf->GetX(), $pdf->GetY(), 20), 0, 0, 'C');
 		$pdf->Cell(240, 6, $this->config->item("distributor"), 0, 1, 'C');
         $pdf->SetFont('Arial', 'B', 15);
         //mencetak setting
         $pdf->Cell(320, 6, 'DATA BARANG YANG TERDAFTAR PADA SISTEM', 0, 1, 'C');
         $pdf->SetFont('Arial', '', 12);
         $pdf->Cell(320, 5, 'Bukit Tinggi, Provinsi Sumatera Sumatra Barat', 0, 1, 'C');
-        $pdf->Cell(320, 5, 'Telp. 0752-82077, Fax.0752-82803; e-mail; cs@semenpadang.com', 0, 1, 'C');
-        $pdf->Cell(320, 5, 'webesite: www.semenpadang.co.id', 0, 1, 'C');
+        $pdf->Cell(320, 5, 'Telp. 0752-82077, Fax.0752-82803; e-mail; cs@TokoBesiHidayahPadangPanjang.com', 0, 1, 'C');
+        $pdf->Cell(320, 5, 'webesite: www.TokoBesiHidayahPadangPanjang.co.id', 0, 1, 'C');
         $pdf->Cell(340, 1, '', ':', 0, 1, 'C');
         $pdf->Cell(300, 5, '', 0, 1, 'C');
         //Membri spasi kEBawah
@@ -523,17 +523,17 @@ class Admin extends CI_Controller
         $pdf->AddPage();
         //seting jenis font yang di gunakan
         $pdf->SetFont('Arial', 'B', 16);
-        $pdf->Cell(20, 40, $pdf->image(base_url() . 'asset/img/logo_semen_padang_blur.jpg', 115, 40, 120), 0, 0, 'C');
+        $pdf->Cell(20, 40, $pdf->image(base_url() . 'asset/img/logo__blur.jpg', 115, 40, 120), 0, 0, 'C');
         //mencetak setting
-        $pdf->Cell(20, 7, $pdf->image(base_url() . 'asset/img/logo_semen_padang.jpg', $pdf->GetX(), $pdf->GetY(), 20), 0, 0, 'C');
+        $pdf->Cell(20, 7, $pdf->image(base_url() . 'asset/img/logo_.jpg', $pdf->GetX(), $pdf->GetY(), 20), 0, 0, 'C');
         $pdf->Cell(240, 6, $this->config->item("distributor"), 0, 1, 'C');
         $pdf->SetFont('Arial', 'B', 15);
         //mencetak setting
         $pdf->Cell(320, 6, 'DATA BARANG YANG TERDAFTAR PADA SISTEM', 0, 1, 'C');
         $pdf->SetFont('Arial', '', 12);
         $pdf->Cell(320, 5, 'Bukit Tinggi, Provinsi Sumatera Sumatra Barat', 0, 1, 'C');
-        $pdf->Cell(320, 5, 'Telp. 0752-82077, Fax.0752-82803; e-mail; cs@semenpadang.com', 0, 1, 'C');
-        $pdf->Cell(320, 5, 'webesite: www.semenpadang.co.id', 0, 1, 'C');
+        $pdf->Cell(320, 5, 'Telp. 0752-82077, Fax.0752-82803; e-mail; cs@TokoBesiHidayahPadangPanjang.com', 0, 1, 'C');
+        $pdf->Cell(320, 5, 'webesite: www.TokoBesiHidayahPadangPanjang.co.id', 0, 1, 'C');
         $pdf->Cell(340, 1, '', ':', 0, 1, 'C');
         $pdf->Cell(300, 5, '', 0, 1, 'C');
         //Membri spasi kEBawah
